@@ -1,5 +1,5 @@
 import 'package:flutter_web/material.dart';
-import 'package:myportfolio/profile_page.dart';
+import 'package:myportfolio/pages/home_page.dart';
 
 main() async {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColorDark: Colors.black,
         fontFamily: "GoogleSansRegular",
       ),
-      home: ProfilePage(),
+      home: HomePage(),
     );
   }
 }
